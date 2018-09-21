@@ -57,7 +57,7 @@ $(document).ready(function(){
         });
 
 	var viewer = new Viewer(document.getElementById('images'), {
-	  inline: true,
+	  inline: false,
 	  viewed: function() {
 	    viewer.zoomTo(1);
 	  }
