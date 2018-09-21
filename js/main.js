@@ -56,6 +56,12 @@ $(document).ready(function(){
             fixedContentPos: false
         });
 
+	var viewer = new Viewer(document.getElementById('image'), {
+	  inline: true,
+	  viewed: function() {
+	    viewer.zoomTo(1);
+	  }
+	});
 
       //  testimonail carusel
 
