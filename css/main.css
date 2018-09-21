@@ -7,3 +7,8 @@
     border: 1px solid transparent;
     overflow: hidden;
 }
+#images > li > img {
+    width: 100%;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
