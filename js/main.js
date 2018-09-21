@@ -56,7 +56,7 @@ $(document).ready(function(){
             fixedContentPos: false
         });
 
-	var viewer = new Viewer(document.getElementById('image'), {
+	var viewer = new Viewer(document.getElementById('images'), {
 	  inline: true,
 	  viewed: function() {
 	    viewer.zoomTo(1);
